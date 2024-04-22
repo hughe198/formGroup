@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+    max-width: 50%;
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px;
+    border: 2px solid black; /* Adds a blue border */
+  }
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+.grid-container label{
+    padding: 5px;
+}
